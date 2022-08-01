@@ -42,7 +42,7 @@ body {
 
 .main-header {
   background-color: rgba(0, 0, 0, 0.3);
-  background-image: url(/images/tour22DESK.jpg);
+  background-image: url("images/tour22DESK.jpg");
   background-blend-mode: multiply;
   background-size: cover;
   padding-bottom: 30px;
