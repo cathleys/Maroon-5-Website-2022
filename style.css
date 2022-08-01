@@ -1,0 +1,189 @@
+* {
+  box-sizing: border-box;
+  color: #777;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.nav ul {
+  margin: 0;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  display: inline-block;
+  padding: 0.5em;
+  text-decoration: none;
+  color: white;
+}
+
+.nav a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.main-nav {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: lighter;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.main-nav li {
+  padding: 0 5%;
+}
+
+.main-header {
+  background-color: rgba(0, 0, 0, 0.3);
+  background-image: url(/images/tour22DESK.jpg);
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding-bottom: 30px;
+}
+
+.main-header button,
+.section-dates button,
+.concert-images button {
+  background: none;
+  border: 2px solid rgba(255, 255, 255, 1);
+  outline: none;
+  color: white;
+}
+
+.main-header button:hover,
+.section-dates button:hover {
+  background-color: yellow;
+  outline: none;
+  color: black;
+  font-weight: bolder;
+}
+
+.btn-display {
+  display: flex;
+  justify-content: center;
+}
+
+.band-name {
+  font-weight: normal;
+  font-size: 3em;
+  text-align: center;
+  margin: 0;
+  color: white;
+}
+
+.band-name-large {
+  font-size: 8em;
+  line-height: 1;
+}
+
+.content-section {
+  margin: 1em;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+}
+
+.section-header {
+  font-size: 2.5em;
+  text-align: center;
+  color: whitesmoke;
+  font-weight: normal;
+}
+
+.about-band-image {
+  float: left;
+  width: 300px;
+  height: 300px;
+  margin: 15px;
+  border-radius: 50%;
+}
+
+.concert-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.concert-images img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  padding: 3px;
+}
+
+.main-footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  margin: 30px 0 0;
+}
+
+.main-footer-container {
+  align-items: center;
+  padding: 0.25em 0;
+  display: flex;
+}
+
+.main-footer-container ul {
+  flex-grow: 1;
+  text-align: end;
+}
+
+.footer-nav li {
+  padding: 0 0.5em;
+}
+
+.footer-nav img {
+  width: 30px;
+  height: 30px;
+}
+
+.band-name-footer {
+  margin: 0 0.5em;
+}
+
+.btn {
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.67em;
+  cursor: pointer;
+}
+
+.merch {
+  padding: 30px 0;
+  text-align: center;
+}
+
+.merch-text strong {
+  font-weight: lighter;
+  padding: 10px 0;
+  font-size: 1.5em;
+}
+
+.section-dates {
+  display: flex;
+  flex-direction: column;
+  margin: 0 30px;
+  text-align: center;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0;
+}
